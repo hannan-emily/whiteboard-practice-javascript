@@ -26,7 +26,7 @@ function mergeSort(arr){
       return arr;
    var mid = Math.floor(arr.length/2),
        left = arr.slice(0,mid),
-       right =arr.slice(mid);
+       right = arr.slice(mid);
    //send the two halves back into mergesort
    //then merge those
    return merge(mergeSort(left),mergeSort(right));
